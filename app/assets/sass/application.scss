@@ -1,0 +1,15 @@
+//
+// For guidance on how to add CSS and SCSS see:
+// https://prototype-kit.service.gov.uk/docs/adding-css-javascript-and-images
+// 
+
+// Add extra styles here
+
+
+// Importing DfE design system
+@import 'node_modules/dfe-frontend/packages/dfefrontend';
+
+// Adding DfE 1200px page width
+.govuk-width-container { @include govuk-width-container; }
+
+@import 'patterns/sub-navigation';
